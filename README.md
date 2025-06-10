@@ -19,10 +19,10 @@ Me chamo Gabrielle, sou Analista de Qualidade de Software com foco em automaçã
 
 ## 🚀 Projetos
 
-### 📌 Robot Framework
+### 📌 [Robot Framework – Login Testes](./robot-framework/projeto-login)
 
-> Em breve: testes funcionais com SeleniumLibrary e estrutura de suíte de testes organizados.
-
+Automação de testes de login utilizando Robot Framework e SeleniumLibrary.  
+Inclui estrutura de suíte, organização de pastas e geração de relatórios HTML.
 ### 📌 Cypress
 
 > Em breve: automação de cenários de login, navegação e testes de elementos dinâmicos.
