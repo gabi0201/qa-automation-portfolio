@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.2 on win32)" generated="2025-06-10T18:58:06.696738" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Tests" source="c:\DEV\qa-automation-portfolio\robot-framework\projeto-login\tests\login_tests.robot">
+<test id="s1-t1" name="Login com Credenciais Válidas" line="6">
+<kw name="Abrir navegador" owner="login_keywords">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-06-10T18:58:06.924630" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/login'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-06-10T18:58:06.924309" elapsed="3.353298"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-06-10T18:58:10.277945" elapsed="0.030697"/>
+</kw>
+<status status="PASS" start="2025-06-10T18:58:06.923510" elapsed="3.385365"/>
+</kw>
+<kw name="Preencher Credenciais" owner="login_keywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-10T18:58:10.310151" level="INFO">Typing text 'tomsmith' into text field 'id:username'.</msg>
+<arg>${USERNAME_FIELD}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-10T18:58:10.309743" elapsed="0.076477"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2025-06-10T18:58:10.387329" level="INFO">Typing password into text field 'id:password'.</msg>
+<msg time="2025-06-10T18:58:10.413230" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>${PASSWORD_FIELD}</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-10T18:58:10.386708" elapsed="0.075016"/>
+</kw>
+<arg>tomsmith</arg>
+<arg>SuperSecretPassword!</arg>
+<status status="PASS" start="2025-06-10T18:58:10.309347" elapsed="0.152655"/>
+</kw>
+<kw name="Clicar em Login" owner="login_keywords">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-06-10T18:58:10.463385" level="INFO">Clicking button 'css:button[type='submit']'.</msg>
+<arg>${LOGIN_BUTTON}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-10T18:58:10.463068" elapsed="0.064414"/>
+</kw>
+<status status="PASS" start="2025-06-10T18:58:10.462590" elapsed="0.065091"/>
+</kw>
+<kw name="Verificar Login com Sucesso" owner="login_keywords">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//h2[normalize-space()='Secure Area']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-06-10T18:58:10.528468" elapsed="0.517435"/>
+</kw>
+<status status="PASS" start="2025-06-10T18:58:10.528142" elapsed="0.517961"/>
+</kw>
+<kw name="Fechar navegador" owner="login_keywords" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-06-10T18:58:11.047047" elapsed="2.112311"/>
+</kw>
+<status status="PASS" start="2025-06-10T18:58:11.046620" elapsed="2.113007"/>
+</kw>
+<status status="PASS" start="2025-06-10T18:58:06.922598" elapsed="6.237449"/>
+</test>
+<doc>Testes de Login</doc>
+<status status="PASS" start="2025-06-10T18:58:06.700448" elapsed="6.460803"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Tests" id="s1" pass="1" fail="0" skip="0">Login Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
