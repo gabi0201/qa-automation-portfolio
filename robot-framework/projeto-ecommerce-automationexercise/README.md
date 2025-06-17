@@ -42,8 +42,8 @@ Automatizar funcionalidades importantes como login, cadastro e fluxo de compra, 
 - [X] Login com dados válidos
 - [X] Login com dados inválidos (mensagem de erro)
 - [X] Cadastro de novo usuário
-- [ ] Adicionar item ao carrinho
-- [ ] Fluxo de compra completo
+- [X] Adicionar item ao carrinho
+- [X] Fluxo de compra completo
 
 ## 🧠 Autor
 

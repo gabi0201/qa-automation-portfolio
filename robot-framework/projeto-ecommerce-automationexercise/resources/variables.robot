@@ -12,5 +12,8 @@ ${CITY}     New York
 ${ZIP_CODE}    10118
 ${CRIAR_CONTA}      //button[@type='submit'][contains(.,'Create Account')]
 ${CONTA_CRIADA}    Account Created!
-
-
+${PAGE_PRODUTOS}    //a[contains(.,' Products')]
+${ADICIONADO_AO_CARRINHO}    //h4[@class='modal-title w-100'][contains(.,'Added!')]
+${CONTINUE_SHOPPING}    //button[@class='btn btn-success close-modal btn-block'][contains(.,'Continue Shopping')]
+${CART}    (//a[@href='/view_cart'][contains(.,'Cart')])[1]
+${PLACE_ORDER}    //a[@class='btn btn-default check_out']

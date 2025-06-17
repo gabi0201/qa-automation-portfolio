@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Library    Screenshot
+Library    Screenshot    screenshot_directory=results/screenshots
 Library    FakerLibrary
 Resource    ../resources/variables.robot
 
@@ -18,6 +18,17 @@ Gerar dados dinâmicos para cadastro
     Set Suite Variable    ${EMAIL_NOVO}     ${email}
     Set Suite Variable    ${NEW_PASSWORD}   ${senha}
     Set Suite Variable    ${PHONE_NUMBER}   ${telefone}
+
+Gerar dados de cartão fake
+    ${card_number}=    Credit Card Number
+    ${name}=    Name
+    ${cvc}=    Credit Card Security Code
+    ${expiry_date}=    Credit Card Expire
+
+    Set Suite Variable    ${CARTAO_NUMERO}    ${card_number}
+    Set Suite Variable    ${CARTAO_NOME}      ${name}
+    Set Suite Variable    ${CARTAO_CVC}       ${cvc}
+    Set Suite Variable    ${CARTAO_EXPIRACAO}    ${expiry_date}
 
 Abrir navegador
     Open Browser    ${URL}    ff
@@ -73,4 +84,43 @@ And clico no botão de criar conta
 Then vejo a mensagem de sucesso confirmando o cadastro
     Wait Until Page Contains    Account Created!    timeout=10s  
     Page Should Contain    Account Created! 
+    Take Screenshot
+
+Given que acesso a página de Produtos
+    Click Element    ${PAGE_PRODUTOS}
+    Wait Until Element Is Visible    //h2[contains(@class,'title text-center')]    5s
+
+And visualizo o primeiro produto
+    Execute JavaScript    document.querySelector("a[href='/product_details/5']").scrollIntoView({ behavior: 'smooth', block: 'center' })
+    Sleep    1s
+    Click Element    xpath=//a[@href='/product_details/5']
+When adiciono o primeiro produto ao carrinho
+    Click Element    //button[@type='button'][contains(.,'Add to cart')]
+    Wait Until Element Is Visible    ${ADICIONADO_AO_CARRINHO} 
+    Click Element    ${CONTINUE_SHOPPING}
+
+And acesso o carrinho de compras
+    Click Element    ${CART}
+    
+Then vejo o produto no carrinho  
+    Page Should Contain    Proceed To Checkout
+
+And clico no botão Proceed To Checkout
+    Click Element    //a[@class='btn btn-default check_out'][contains(.,'Proceed To Checkout')]
+
+And confirmo o endereço de entrega
+    Page Should Contain    Address Details
+    Click Element    //a[contains(@class,'btn btn-default check_out')]
+
+And preencho os dados do pagamento
+    Page Should Contain    Payment
+    Input Text    //input[@class='form-control']    ${CARTAO_NOME}
+    Input Text    //input[contains(@name,'card_number')]    ${CARTAO_NUMERO}
+    Input Text    //input[contains(@name,'cvc')]    ${CARTAO_CVC}
+    Input Text    //input[@name='expiry_month']    12
+    Input Text    //input[@name='expiry_year']    2027
+    Click Button    //button[@data-qa='pay-button']
+
+Then vejo a mensagem de sucesso da finalização do pedido     
+    Wait Until Page Contains    Congratulations! Your order has been confirmed!    timeout=10s    
     Take Screenshot

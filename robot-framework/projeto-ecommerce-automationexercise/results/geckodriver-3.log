@@ -1,33 +1,48 @@
-1750120310188	geckodriver	INFO	Listening on 127.0.0.1:59749
-1750120313254	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59750" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\rust_mozprofile72WF4r"
+1750182338361	geckodriver	INFO	Listening on 127.0.0.1:57810
+1750182341384	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57811" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\rust_mozprofilez1AwzL"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 Dynamically enable window occlusion 0
-1750120313496	Marionette	INFO	Marionette enabled
-1750120313625	Marionette	INFO	Listening on port 59758
-WebDriver BiDi listening on ws://127.0.0.1:59750
-Read port: 59758
-1750120313724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:59750/devtools/browser/b210b369-fe61-4673-8ac3-8317ac1531d8
+1750182341619	Marionette	INFO	Marionette enabled
+1750182341744	Marionette	INFO	Listening on port 57818
+WebDriver BiDi listening on ws://127.0.0.1:57811
+Read port: 57818
+1750182341840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57811/devtools/browser/259eee23-ee2d-4282-b36b-d4f9c7cd0b4f
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 4025: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 4025: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 4025: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 4025: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 4025: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 4025: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 4025: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 4025 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 4025 > eval line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 4025: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 4025 > eval line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 4025 > eval line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 4025 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 4025 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3nxT03J6KyVzk75roof6G32FCqAPoB7S1NgsT9gqgHY.js, line 7465: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3nxT03J6KyVzk75roof6G32FCqAPoB7S1NgsT9gqgHY.js line 2 > eval, line 7465: unreachable code after return statement
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
-JavaScript error: , line 0: uncaught exception: undefined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 48: Script terminated by timeout at:
+Ta.prototype.Sb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:269
+tg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+tg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Ta.prototype.Sb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+tg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:477
+
+console.error: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "<unknown>"  data: no]
+JavaScript error: resource://gre/actors/FormHandlerChild.sys.mjs, line 103: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'FormHandler' has been destroyed
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3nxT03J6KyVzk75roof6G32FCqAPoB7S1NgsT9gqgHY.js, line 5875: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3nxT03J6KyVzk75roof6G32FCqAPoB7S1NgsT9gqgHY.js line 2 > eval, line 5875: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3nxT03J6KyVzk75roof6G32FCqAPoB7S1NgsT9gqgHY.js, line 6876: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3nxT03J6KyVzk75roof6G32FCqAPoB7S1NgsT9gqgHY.js line 2 > eval, line 6876: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3nxT03J6KyVzk75roof6G32FCqAPoB7S1NgsT9gqgHY.js, line 5254: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3nxT03J6KyVzk75roof6G32FCqAPoB7S1NgsT9gqgHY.js line 2 > eval, line 5254: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: FormAutofillSection: isRecordCreatable: Country not supported: INDIA
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 254: Script terminated by timeout at:
 Xo/w<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:254:479
@@ -41,6 +56,11 @@ n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/cu
 n.Lc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:97
 n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:628
 n.Lc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:97
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:628
+n.Lc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:97
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:628
+R/</</d<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:102:400
+jd/this.Lc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:1149
 n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:628
 Hh/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:142:430
 Xa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:339
@@ -64,20 +84,8 @@ n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/
 n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
 h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:477
 
-1750120324229	Marionette	INFO	Stopped listening on port 59758
+1750182352299	Marionette	INFO	Stopped listening on port 57818
 Dynamically enable window occlusion 1
-JavaScript warning: https://pagead2.googlesyndication.com/bg/lIYnVENeE7DsO3ap9tzG-nfMrMkywn_WWET8W-zx7JY.js line 2 > eval line 5496 > eval line 1 > eval line 1 > eval, line 1: Script terminated by timeout at:
-Y@https://pagead2.googlesyndication.com/bg/lIYnVENeE7DsO3ap9tzG-nfMrMkywn_WWET8W-zx7JY.js line 2 > eval line 5496 > eval line 1 > eval line 1 > eval:1:24
-@https://pagead2.googlesyndication.com/bg/lIYnVENeE7DsO3ap9tzG-nfMrMkywn_WWET8W-zx7JY.js line 2 > eval line 5496 > eval line 1 > eval line 1 > eval:1:48
-qp@https://pagead2.googlesyndication.com/bg/lIYnVENeE7DsO3ap9tzG-nfMrMkywn_WWET8W-zx7JY.js line 2 > eval line 5496 > eval line 1 > eval line 1 > eval:1:201
-dj@https://pagead2.googlesyndication.com/bg/lIYnVENeE7DsO3ap9tzG-nfMrMkywn_WWET8W-zx7JY.js line 2 > eval line 5496 > eval line 1 > eval line 1 > eval:1:40
-@https://pagead2.googlesyndication.com/bg/lIYnVENeE7DsO3ap9tzG-nfMrMkywn_WWET8W-zx7JY.js line 2 > eval:5496:51453
-FY@https://pagead2.googlesyndication.com/bg/lIYnVENeE7DsO3ap9tzG-nfMrMkywn_WWET8W-zx7JY.js line 2 > eval:5496:21809
-qU@https://pagead2.googlesyndication.com/bg/lIYnVENeE7DsO3ap9tzG-nfMrMkywn_WWET8W-zx7JY.js line 2 > eval:5496:4976
-Q1@https://pagead2.googlesyndication.com/bg/lIYnVENeE7DsO3ap9tzG-nfMrMkywn_WWET8W-zx7JY.js line 2 > eval:5496:3775
-qU/<@https://pagead2.googlesyndication.com/bg/lIYnVENeE7DsO3ap9tzG-nfMrMkywn_WWET8W-zx7JY.js line 2 > eval:5496:6102
-ug</<@https://pagead2.googlesyndication.com/bg/lIYnVENeE7DsO3ap9tzG-nfMrMkywn_WWET8W-zx7JY.js line 2 > eval:5496:48944
-
 console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
 console.error: services.settings: 

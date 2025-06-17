@@ -1,37 +1,53 @@
-1750120502488	geckodriver	INFO	Listening on 127.0.0.1:59882
-1750120505551	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59883" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\rust_mozprofile7VyewH"
+1750182355234	geckodriver	INFO	Listening on 127.0.0.1:57855
+1750182358300	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57856" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\rust_mozprofilebZUHNW"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 Dynamically enable window occlusion 0
-1750120505794	Marionette	INFO	Marionette enabled
-1750120505925	Marionette	INFO	Listening on port 59893
-WebDriver BiDi listening on ws://127.0.0.1:59883
-Read port: 59893
-1750120506019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:59883/devtools/browser/03658627-8ff4-4814-865b-92ff6cdb1c6a
+1750182358538	Marionette	INFO	Marionette enabled
+1750182358660	Marionette	INFO	Listening on port 57863
+WebDriver BiDi listening on ws://127.0.0.1:57856
+Read port: 57863
+1750182358758	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57856/devtools/browser/a90a9c51-78e2-4a07-9192-f9a7df718e3b
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 7497: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 7497: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 7497: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 7497: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 7497: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 7497: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 7497: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 7497 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 7497 > eval line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 7497: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 7497 > eval line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 7497 > eval line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 7497 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 7497 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
-JavaScript error: , line 0: uncaught exception: undefined
-JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 266: Script terminated by timeout at:
-Rp<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:266:905
-M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:482
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 59: Script terminated by timeout at:
+Nb@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:59:451
+O/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:101:1459
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+R/</</d<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:102:357
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:475
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+N/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:96:1199
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+Ad/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:303
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:475
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:475
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+Oe/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:101:401
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:475
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+Oe/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:101:401
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:475
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+lf/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:102:1294
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+O/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:101:1477
 jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
 n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
 Hh/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:142:320
@@ -56,25 +72,82 @@ n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/
 n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
 h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:477
 
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 1425: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 1425: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 1425: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js, line 1425: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 1425: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 1425: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 1425: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 1425 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval, line 1425: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 1425 > eval line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 1425 > eval line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 1425 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/kYRL3XC0802kNAeVbrWcLoOU98vdnnE3tJCjbzdv7jk.js line 2 > eval line 1425 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
-1750120517137	Marionette	INFO	Stopped listening on port 59893
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 245: Script terminated by timeout at:
+Dg@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:245:390
+Gg.prototype.K@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:127:511
+rf.prototype.K@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:103:790
+rf.prototype.I@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:103:834
+pe.prototype.I@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:98:780
+lp/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:260:200
+lp/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:260:178
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:482
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:1005
+dd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:89:1294
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:1005
+dd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:89:1294
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:1005
+dd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:89:1294
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:1005
+dd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:89:1294
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+kf/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:102:782
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:475
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+Wo/</h/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:252:1966
+Xa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:339
+Ua.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:147
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:483
+Hh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:142:292
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+tg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Ta.prototype.Sb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+tg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+tg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Ta.prototype.Sb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+tg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:477
+
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1750182374046	Marionette	INFO	Stopped listening on port 57863
 Dynamically enable window occlusion 1
 console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 console.error: services.settings: 
 Object
   - prototype Object
@@ -88,4 +161,3 @@ Object
     - result = 2152071198
     - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
   - prototype Object
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
