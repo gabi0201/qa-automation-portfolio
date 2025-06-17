@@ -23,6 +23,12 @@ Me chamo Gabrielle, sou Analista de Qualidade de Software com foco em automaçã
 
 Automação de testes de login utilizando Robot Framework e SeleniumLibrary.  
 Inclui estrutura de suíte, organização de pastas e geração de relatórios HTML.
+
+### 📌 [Robot Framework – E-commerce AutomationExercise](./robot-framework/automationexercise)
+
+Automação de testes para o site [AutomationExercise](https://automationexercise.com/) com foco em cadastro, login e fluxo de compra.  
+Utiliza FakerLibrary para dados dinâmicos e estrutura modular para facilitar manutenção.
+
 ### 📌 Cypress
 
 > Em breve: automação de cenários de login, navegação e testes de elementos dinâmicos.
