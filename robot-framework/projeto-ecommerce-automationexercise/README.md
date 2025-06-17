@@ -39,11 +39,12 @@ Automatizar funcionalidades importantes como login, cadastro e fluxo de compra, 
 ## ✅ Funcionalidades Cobertas (até agora)
 
 - [X] Login com dados válidos
+- [X] Login com dados inválidos (mensagem de erro)
 - [ ] Cadastro de novo usuário
 - [ ] Adicionar item ao carrinho
 - [ ] Fluxo de compra completo
 
-Em breve: testes com dados dinâmicos e testes negativos
+Em breve: testes com dados dinâmicos
 
 ## 🧠 Autor
 
