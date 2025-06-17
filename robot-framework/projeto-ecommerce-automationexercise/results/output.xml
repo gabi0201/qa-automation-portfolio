@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.2 on win32)" generated="2025-06-16T21:05:48.343829" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Tests" source="c:\Users\gabrielle\Documents\Robot\robot-ecommerce-tests\tests\login_tests.robot">
+<kw name="Abrir navegador" owner="keywords" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-06-16T21:05:48.578569" level="INFO">Opening browser 'ff' to base url 'https://automationexercise.com/'.</msg>
+<msg time="2025-06-16T21:05:48.852517" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>${URL}</arg>
+<arg>ff</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-06-16T21:05:48.578123" elapsed="8.851422"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-06-16T21:05:57.429934" elapsed="0.258425"/>
+</kw>
+<status status="PASS" start="2025-06-16T21:05:48.577137" elapsed="9.111481"/>
+</kw>
+<test id="s1-t1" name="Login com dados válidos" line="11">
+<kw name="Given que estou na página de login" owner="keywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-16T21:05:57.690180" level="INFO">Clicking element '//a[contains(.,'Signup / Login')]'.</msg>
+<arg>//a[contains(.,'Signup / Login')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-16T21:05:57.689810" elapsed="1.653471"/>
+</kw>
+<status status="PASS" start="2025-06-16T21:05:57.689499" elapsed="1.654033"/>
+</kw>
+<kw name="When informo email e senha corretos" owner="keywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-16T21:05:59.344781" level="INFO">Typing text 'gabrielle.qa@test.com' into text field '//input[contains(@data-qa,'login-email')]'.</msg>
+<arg>//input[contains(@data-qa,'login-email')]</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-16T21:05:59.344494" elapsed="0.050756"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-16T21:05:59.395928" level="INFO">Typing text '123456' into text field '//input[@type='password']'.</msg>
+<arg>//input[@type='password']</arg>
+<arg>${SENHA}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-16T21:05:59.395568" elapsed="0.020641"/>
+</kw>
+<status status="PASS" start="2025-06-16T21:05:59.344083" elapsed="0.072339"/>
+</kw>
+<kw name="And clico no botão de login" owner="keywords">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-06-16T21:05:59.417652" level="INFO">Clicking button '//button[contains(.,'Login')]'.</msg>
+<arg>//button[contains(.,'Login')]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-16T21:05:59.417363" elapsed="3.092185"/>
+</kw>
+<status status="PASS" start="2025-06-16T21:05:59.416938" elapsed="3.092861"/>
+</kw>
+<kw name="Then vejo o nome do usuário logado no menu" owner="keywords">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-06-16T21:06:02.515839" level="INFO">Current page contains text 'Logged in as Gabrielle'.</msg>
+<arg>${AVISO_LOGADO}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-06-16T21:06:02.510656" elapsed="0.005419"/>
+</kw>
+<status status="PASS" start="2025-06-16T21:06:02.510280" elapsed="0.005917"/>
+</kw>
+<doc>Teste de login funcional com usuário válido.</doc>
+<tag>login_positivo</tag>
+<status status="PASS" start="2025-06-16T21:05:57.688766" elapsed="4.827782"/>
+</test>
+<kw name="Fechar navegador" owner="keywords" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-06-16T21:06:02.518110" elapsed="2.698428"/>
+</kw>
+<status status="PASS" start="2025-06-16T21:06:02.517753" elapsed="2.699063"/>
+</kw>
+<status status="PASS" start="2025-06-16T21:05:48.347416" elapsed="16.869516"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">login_positivo</stat>
+</tag>
+<suite>
+<stat name="Login Tests" id="s1" pass="1" fail="0" skip="0">Login Tests</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-06-16T21:05:48.852517" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
