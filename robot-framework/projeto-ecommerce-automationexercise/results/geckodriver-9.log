@@ -1,0 +1,33 @@
+1750168518700	geckodriver	INFO	Listening on 127.0.0.1:54737
+1750168521727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54738" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\rust_mozprofilea53IpL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750168521963	Marionette	INFO	Marionette enabled
+1750168522097	Marionette	INFO	Listening on port 54745
+WebDriver BiDi listening on ws://127.0.0.1:54738
+Read port: 54745
+1750168522192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54738/devtools/browser/6fce20c0-2d03-4372-b3c2-ee4ebffc7715
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1750168532684	Marionette	INFO	Stopped listening on port 54745
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":26,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":24,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":24,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object

@@ -1,9 +1,24 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    Screenshot
+Library    FakerLibrary
 Resource    ../resources/variables.robot
 
 *** Keywords ***
+
+Gerar dados dinâmicos para cadastro
+    ${first_name}=     First Name
+    ${last_name}=      Last Name
+    ${email}=          Email
+    ${senha}=          Password
+    ${telefone}=       Phone Number
+
+    Set Suite Variable    ${FIRST_NAME}     ${first_name}
+    Set Suite Variable    ${LAST_NAME}      ${last_name}
+    Set Suite Variable    ${EMAIL_NOVO}     ${email}
+    Set Suite Variable    ${NEW_PASSWORD}   ${senha}
+    Set Suite Variable    ${PHONE_NUMBER}   ${telefone}
+
 Abrir navegador
     Open Browser    ${URL}    ff
     Maximize Browser Window
@@ -45,15 +60,17 @@ When preencho os dados obrigatórios corretamente
     Input Text    //input[@data-qa='first_name']    ${FIRST_NAME}
     Input Text    //input[contains(@name,'last_name')]    ${LAST_NAME}
     Input Text    //input[@data-qa='address']    ${ADDRESS}
-    Click Element    //select[contains(@data-qa,'country')]
+    Select From List By Label    //select[contains(@data-qa,'country')]    India
     Input Text    //input[contains(@data-qa,'state')]    ${STATE}
     Input Text    //input[contains(@data-qa,'city')]    ${CITY}
     Input Text    //input[contains(@data-qa,'zipcode')]   ${ZIP_CODE}
     Input Text    //input[@type='text'][contains(@id,'number')]    ${PHONE_NUMBER}
 
 And clico no botão de criar conta
-    Click Button    ${CRIAR_CONTA} 
+    Wait Until Element Is Visible    ${CRIAR_CONTA}    10s
+    Execute Javascript    document.querySelector("button[type='submit']").click()
 
 Then vejo a mensagem de sucesso confirmando o cadastro
-    Page Should Contain    ${CONTA_CRIADA}
+    Wait Until Page Contains    Account Created!    timeout=10s  
+    Page Should Contain    Account Created! 
     Take Screenshot

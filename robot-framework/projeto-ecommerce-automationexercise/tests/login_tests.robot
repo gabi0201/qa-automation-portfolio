@@ -1,6 +1,7 @@
 *** Settings ***
 
 Library    SeleniumLibrary
+Library    FakerLibrary
 Resource   ../resources/keywords.robot
 Resource    ../resources/variables.robot
 
@@ -23,11 +24,3 @@ Login com dados inválidos
     When informo email e senha inválidos 
     And clico no botão de login
     Then vejo a mensagem de erro de login 
-    
-Cadastro de novo usuário
-    [Documentation]    Deve permitir o cadastro de um novo usuário com dados válidos.
-    [Tags]    cadastro    positivo
-    Given que estou na página de cadastro
-    When preencho os dados obrigatórios corretamente 
-    And clico no botão de criar conta 
-    Then vejo a mensagem de sucesso confirmando o cadastro 

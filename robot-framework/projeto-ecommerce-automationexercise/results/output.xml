@@ -1,178 +1,434 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3 (Python 3.13.2 on win32)" generated="2025-06-17T09:44:14.228269" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3 (Python 3.13.2 on win32)" generated="2025-06-17T10:54:59.085997" rpa="false" schemaversion="5">
 <suite id="s1" name="Tests" source="C:\DEV\qa-automation-portfolio\robot-framework\projeto-ecommerce-automationexercise\tests">
-<suite id="s1-s1" name="Login Tests" source="C:\DEV\qa-automation-portfolio\robot-framework\projeto-ecommerce-automationexercise\tests\login_tests.robot">
-<test id="s1-s1-t1" name="Login com dados válidos" line="11">
+<suite id="s1-s1" name="Cadastro Tests" source="C:\DEV\qa-automation-portfolio\robot-framework\projeto-ecommerce-automationexercise\tests\cadastro_tests.robot">
+<test id="s1-s1-t1" name="Cadastro de novo usuário" line="13">
 <kw name="Abrir navegador" owner="keywords" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:14.625700" level="INFO">Opening browser 'ff' to base url 'https://automationexercise.com/'.</msg>
-<msg time="2025-06-17T09:44:14.994446" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg time="2025-06-17T10:54:59.543829" level="INFO">Opening browser 'ff' to base url 'https://automationexercise.com/'.</msg>
+<msg time="2025-06-17T10:54:59.800833" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
 <arg>${URL}</arg>
 <arg>ff</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-06-17T09:44:14.625429" elapsed="9.615887"/>
+<status status="PASS" start="2025-06-17T10:54:59.543603" elapsed="9.058576"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-06-17T09:44:24.241558" elapsed="0.271135"/>
+<status status="PASS" start="2025-06-17T10:55:08.602442" elapsed="0.258449"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:14.624565" elapsed="9.888326"/>
+<status status="PASS" start="2025-06-17T10:54:59.542733" elapsed="9.318299"/>
+</kw>
+<kw name="Gerar dados dinâmicos para cadastro" owner="keywords">
+<kw name="First Name" owner="FakerLibrary">
+<msg time="2025-06-17T10:55:08.862033" level="INFO">${first_name} = Scott</msg>
+<var>${first_name}</var>
+<status status="PASS" start="2025-06-17T10:55:08.861753" elapsed="0.000307"/>
+</kw>
+<kw name="Last Name" owner="FakerLibrary">
+<msg time="2025-06-17T10:55:08.862385" level="INFO">${last_name} = Rice</msg>
+<var>${last_name}</var>
+<status status="PASS" start="2025-06-17T10:55:08.862146" elapsed="0.000261"/>
+</kw>
+<kw name="Email" owner="FakerLibrary">
+<msg time="2025-06-17T10:55:08.862765" level="INFO">${email} = jeremydavis@example.org</msg>
+<var>${email}</var>
+<status status="PASS" start="2025-06-17T10:55:08.862486" elapsed="0.000302"/>
+</kw>
+<kw name="Password" owner="FakerLibrary">
+<msg time="2025-06-17T10:55:08.863009" level="INFO">${senha} = %V31Zuy0$5</msg>
+<var>${senha}</var>
+<doc>Generate a random password of the specified ``length``.</doc>
+<status status="PASS" start="2025-06-17T10:55:08.862865" elapsed="0.000165"/>
+</kw>
+<kw name="Phone Number" owner="FakerLibrary">
+<msg time="2025-06-17T10:55:08.863216" level="INFO">${telefone} = 001-627-346-0665x6938</msg>
+<var>${telefone}</var>
+<status status="PASS" start="2025-06-17T10:55:08.863105" elapsed="0.000131"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2025-06-17T10:55:08.863493" level="INFO">${FIRST_NAME} = Scott</msg>
+<arg>${FIRST_NAME}</arg>
+<arg>${first_name}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2025-06-17T10:55:08.863321" elapsed="0.000205"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2025-06-17T10:55:08.863735" level="INFO">${LAST_NAME} = Rice</msg>
+<arg>${LAST_NAME}</arg>
+<arg>${last_name}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2025-06-17T10:55:08.863607" elapsed="0.000158"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2025-06-17T10:55:08.864409" level="INFO">${EMAIL_NOVO} = jeremydavis@example.org</msg>
+<arg>${EMAIL_NOVO}</arg>
+<arg>${email}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2025-06-17T10:55:08.863846" elapsed="0.000598"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2025-06-17T10:55:08.865020" level="INFO">${NEW_PASSWORD} = %V31Zuy0$5</msg>
+<arg>${NEW_PASSWORD}</arg>
+<arg>${senha}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2025-06-17T10:55:08.864528" elapsed="0.000525"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2025-06-17T10:55:08.865614" level="INFO">${PHONE_NUMBER} = 001-627-346-0665x6938</msg>
+<arg>${PHONE_NUMBER}</arg>
+<arg>${telefone}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2025-06-17T10:55:08.865135" elapsed="0.000511"/>
+</kw>
+<status status="PASS" start="2025-06-17T10:55:08.861447" elapsed="0.004255"/>
+</kw>
+<kw name="Given que estou na página de cadastro" owner="keywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:08.866670" level="INFO">Clicking element '//a[contains(.,'Signup / Login')]'.</msg>
+<arg>//a[contains(.,'Signup / Login')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:08.866093" elapsed="1.968087"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:10.834613" level="INFO">Typing text 'Scott' into text field '//input[@type='text']'.</msg>
+<arg>//input[@type='text']</arg>
+<arg>${FIRST_NAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:10.834368" elapsed="0.040499"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:10.875290" level="INFO">Typing text 'jeremydavis@example.org' into text field '//input[@data-qa='signup-email']'.</msg>
+<arg>//input[@data-qa='signup-email']</arg>
+<arg>${EMAIL_NOVO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:10.875054" elapsed="0.025102"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:10.900544" level="INFO">Clicking button '//button[contains(@data-qa,'signup-button')]'.</msg>
+<arg>//button[contains(@data-qa,'signup-button')]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:10.900360" elapsed="3.448993"/>
+</kw>
+<status status="PASS" start="2025-06-17T10:55:08.865927" elapsed="5.483551"/>
+</kw>
+<kw name="When preencho os dados obrigatórios corretamente" owner="keywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:14.350336" level="INFO">Clicking element '//input[@type='radio'][contains(@id,'gender2')]'.</msg>
+<arg>//input[@type='radio'][contains(@id,'gender2')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.350172" elapsed="0.217652"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:14.568306" level="INFO">Typing password into text field '//input[@type='password']'.</msg>
+<msg time="2025-06-17T10:55:14.579613" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>//input[@type='password']</arg>
+<arg>${NEW_PASSWORD}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.568013" elapsed="0.028183"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:14.596962" level="INFO">Typing text 'Scott' into text field '//input[@data-qa='first_name']'.</msg>
+<arg>//input[@data-qa='first_name']</arg>
+<arg>${FIRST_NAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.596531" elapsed="0.045828"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:14.642773" level="INFO">Typing text 'Rice' into text field '//input[contains(@name,'last_name')]'.</msg>
+<arg>//input[contains(@name,'last_name')]</arg>
+<arg>${LAST_NAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.642549" elapsed="0.026045"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:14.669204" level="INFO">Typing text '20 W 34th St.' into text field '//input[@data-qa='address']'.</msg>
+<arg>//input[@data-qa='address']</arg>
+<arg>${ADDRESS}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.668961" elapsed="0.025271"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:14.694791" level="INFO">Selecting options from selection list '//select[contains(@data-qa,'country')]' by label India.</msg>
+<arg>//select[contains(@data-qa,'country')]</arg>
+<arg>India</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.694527" elapsed="0.018030"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:14.713018" level="INFO">Typing text 'NY' into text field '//input[contains(@data-qa,'state')]'.</msg>
+<arg>//input[contains(@data-qa,'state')]</arg>
+<arg>${STATE}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.712757" elapsed="0.019665"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:14.733000" level="INFO">Typing text 'New York' into text field '//input[contains(@data-qa,'city')]'.</msg>
+<arg>//input[contains(@data-qa,'city')]</arg>
+<arg>${CITY}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.732688" elapsed="0.024375"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:14.757519" level="INFO">Typing text '10118' into text field '//input[contains(@data-qa,'zipcode')]'.</msg>
+<arg>//input[contains(@data-qa,'zipcode')]</arg>
+<arg>${ZIP_CODE}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.757273" elapsed="0.024225"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:14.781973" level="INFO">Typing text '001-627-346-0665x6938' into text field '//input[@type='text'][contains(@id,'number')]'.</msg>
+<arg>//input[@type='text'][contains(@id,'number')]</arg>
+<arg>${PHONE_NUMBER}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.781724" elapsed="0.044211"/>
+</kw>
+<status status="PASS" start="2025-06-17T10:55:14.349904" elapsed="0.476220"/>
+</kw>
+<kw name="And clico no botão de criar conta" owner="keywords">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${CRIAR_CONTA}</arg>
+<arg>10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.827253" elapsed="0.011221"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:14.839068" level="INFO">Executing JavaScript:
+document.querySelector("button[type='submit']").click()
+Without any arguments.</msg>
+<arg>document.querySelector("button[type='submit']").click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.838681" elapsed="0.032033"/>
+</kw>
+<status status="PASS" start="2025-06-17T10:55:14.826666" elapsed="0.044176"/>
+</kw>
+<kw name="Then vejo a mensagem de sucesso confirmando o cadastro" owner="keywords">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Account Created!</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2025-06-17T10:55:14.871545" elapsed="0.816854"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:15.691909" level="INFO">Current page contains text 'Account Created!'.</msg>
+<arg>Account Created!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-06-17T10:55:15.688624" elapsed="0.003373"/>
+</kw>
+<kw name="Take Screenshot" owner="Screenshot">
+<msg time="2025-06-17T10:55:15.750899" level="INFO" html="true">&lt;a href="screenshot_6.jpg"&gt;&lt;img src="screenshot_6.jpg" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot in JPEG format and embeds it into the log file.</doc>
+<status status="PASS" start="2025-06-17T10:55:15.692170" elapsed="0.058833"/>
+</kw>
+<status status="PASS" start="2025-06-17T10:55:14.871248" elapsed="0.879856"/>
+</kw>
+<kw name="Fechar navegador" owner="keywords" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-06-17T10:55:15.751798" elapsed="2.672911"/>
+</kw>
+<status status="PASS" start="2025-06-17T10:55:15.751536" elapsed="2.673285"/>
+</kw>
+<doc>Deve permitir o cadastro de um novo usuário com dados válidos.</doc>
+<tag>cadastro</tag>
+<tag>positivo</tag>
+<status status="PASS" start="2025-06-17T10:54:59.541899" elapsed="18.883083"/>
+</test>
+<status status="PASS" start="2025-06-17T10:54:59.110005" elapsed="19.315628"/>
+</suite>
+<suite id="s1-s2" name="Login Tests" source="C:\DEV\qa-automation-portfolio\robot-framework\projeto-ecommerce-automationexercise\tests\login_tests.robot">
+<test id="s1-s2-t1" name="Login com dados válidos" line="12">
+<kw name="Abrir navegador" owner="keywords" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-06-17T10:55:18.430827" level="INFO">Opening browser 'ff' to base url 'https://automationexercise.com/'.</msg>
+<msg time="2025-06-17T10:55:18.685313" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>${URL}</arg>
+<arg>ff</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-06-17T10:55:18.430552" elapsed="9.211646"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-06-17T10:55:27.642405" elapsed="0.269284"/>
+</kw>
+<status status="PASS" start="2025-06-17T10:55:18.430305" elapsed="9.481495"/>
 </kw>
 <kw name="Given que estou na página de login" owner="keywords">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:24.514095" level="INFO">Clicking element '//a[contains(.,'Signup / Login')]'.</msg>
+<msg time="2025-06-17T10:55:27.912662" level="INFO">Clicking element '//a[contains(.,'Signup / Login')]'.</msg>
 <arg>//a[contains(.,'Signup / Login')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-17T09:44:24.513771" elapsed="1.689786"/>
+<status status="PASS" start="2025-06-17T10:55:27.912500" elapsed="1.753990"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:24.513387" elapsed="1.690317"/>
+<status status="PASS" start="2025-06-17T10:55:27.912227" elapsed="1.754375"/>
 </kw>
 <kw name="When informo email e senha corretos" owner="keywords">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:26.204593" level="INFO">Typing text 'gabrielle.qa@test.com' into text field '//input[contains(@data-qa,'login-email')]'.</msg>
+<msg time="2025-06-17T10:55:29.667376" level="INFO">Typing text 'gabrielle.qa@test.com' into text field '//input[contains(@data-qa,'login-email')]'.</msg>
 <arg>//input[contains(@data-qa,'login-email')]</arg>
 <arg>${EMAIL}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-17T09:44:26.204401" elapsed="0.038836"/>
+<status status="PASS" start="2025-06-17T10:55:29.667199" elapsed="0.038336"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:26.243667" level="INFO">Typing text '123456' into text field '//input[@type='password']'.</msg>
+<msg time="2025-06-17T10:55:29.705977" level="INFO">Typing text '123456' into text field '//input[@type='password']'.</msg>
 <arg>//input[@type='password']</arg>
 <arg>${SENHA}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-17T09:44:26.243431" elapsed="0.018050"/>
+<status status="PASS" start="2025-06-17T10:55:29.705744" elapsed="0.016941"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:26.204119" elapsed="0.057596"/>
+<status status="PASS" start="2025-06-17T10:55:29.666950" elapsed="0.055844"/>
 </kw>
 <kw name="And clico no botão de login" owner="keywords">
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:26.262674" level="INFO">Clicking button '//button[contains(.,'Login')]'.</msg>
+<msg time="2025-06-17T10:55:29.723715" level="INFO">Clicking button '//button[contains(.,'Login')]'.</msg>
 <arg>//button[contains(.,'Login')]</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-17T09:44:26.262493" elapsed="2.946294"/>
+<status status="PASS" start="2025-06-17T10:55:29.723555" elapsed="2.909488"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:26.262171" elapsed="2.946742"/>
+<status status="PASS" start="2025-06-17T10:55:29.723297" elapsed="2.909865"/>
 </kw>
 <kw name="Then vejo o nome do usuário logado no menu" owner="keywords">
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:29.227793" level="INFO">Current page contains text 'Logged in as Gabrielle'.</msg>
+<msg time="2025-06-17T10:55:32.639235" level="INFO">Current page contains text 'Logged in as Gabrielle'.</msg>
 <arg>${AVISO_LOGADO}</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2025-06-17T09:44:29.209540" elapsed="0.018356"/>
+<status status="PASS" start="2025-06-17T10:55:32.633765" elapsed="0.005568"/>
 </kw>
 <kw name="Take Screenshot" owner="Screenshot">
-<msg time="2025-06-17T09:44:29.327533" level="INFO" html="true">&lt;a href="screenshot_4.jpg"&gt;&lt;img src="screenshot_4.jpg" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-06-17T10:55:32.681129" level="INFO" html="true">&lt;a href="screenshot_7.jpg"&gt;&lt;img src="screenshot_7.jpg" width="800px"&gt;&lt;/a&gt;</msg>
 <doc>Takes a screenshot in JPEG format and embeds it into the log file.</doc>
-<status status="PASS" start="2025-06-17T09:44:29.228072" elapsed="0.099598"/>
+<status status="PASS" start="2025-06-17T10:55:32.639500" elapsed="0.041752"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:29.209284" elapsed="0.118483"/>
+<status status="PASS" start="2025-06-17T10:55:32.633503" elapsed="0.047839"/>
 </kw>
 <kw name="Fechar navegador" owner="keywords" type="TEARDOWN">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-06-17T09:44:29.328655" elapsed="2.717642"/>
+<status status="PASS" start="2025-06-17T10:55:32.682149" elapsed="2.643367"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:29.328286" elapsed="2.718129"/>
+<status status="PASS" start="2025-06-17T10:55:32.681794" elapsed="2.643834"/>
 </kw>
 <doc>Teste de login funcional com usuário válido.</doc>
 <tag>login_positivo</tag>
-<status status="PASS" start="2025-06-17T09:44:14.623712" elapsed="17.422866"/>
+<status status="PASS" start="2025-06-17T10:55:18.429837" elapsed="16.895947"/>
 </test>
-<test id="s1-s1-t2" name="Login com dados inválidos" line="19">
+<test id="s1-s2-t2" name="Login com dados inválidos" line="20">
 <kw name="Abrir navegador" owner="keywords" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:32.048042" level="INFO">Opening browser 'ff' to base url 'https://automationexercise.com/'.</msg>
-<msg time="2025-06-17T09:44:32.300468" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg time="2025-06-17T10:55:35.327177" level="INFO">Opening browser 'ff' to base url 'https://automationexercise.com/'.</msg>
+<msg time="2025-06-17T10:55:35.582263" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
 <arg>${URL}</arg>
 <arg>ff</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-06-17T09:44:32.047874" elapsed="11.201048"/>
+<status status="PASS" start="2025-06-17T10:55:35.327018" elapsed="8.793586"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-06-17T09:44:43.249118" elapsed="0.264473"/>
+<status status="PASS" start="2025-06-17T10:55:44.120930" elapsed="0.258028"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:32.047656" elapsed="11.466053"/>
+<status status="PASS" start="2025-06-17T10:55:35.326803" elapsed="9.052265"/>
 </kw>
 <kw name="Given que estou na página de login" owner="keywords">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:43.514563" level="INFO">Clicking element '//a[contains(.,'Signup / Login')]'.</msg>
+<msg time="2025-06-17T10:55:44.379853" level="INFO">Clicking element '//a[contains(.,'Signup / Login')]'.</msg>
 <arg>//a[contains(.,'Signup / Login')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-17T09:44:43.514394" elapsed="1.754982"/>
+<status status="PASS" start="2025-06-17T10:55:44.379695" elapsed="1.720217"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:43.514101" elapsed="1.755424"/>
+<status status="PASS" start="2025-06-17T10:55:44.379446" elapsed="1.720582"/>
 </kw>
 <kw name="When informo email e senha inválidos" owner="keywords">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:45.270422" level="INFO">Typing text 'erro@email.com' into text field '//input[contains(@data-qa,'login-email')]'.</msg>
+<msg time="2025-06-17T10:55:46.100833" level="INFO">Typing text 'erro@email.com' into text field '//input[contains(@data-qa,'login-email')]'.</msg>
 <arg>//input[contains(@data-qa,'login-email')]</arg>
 <arg>${EMAIL_INCORRETO}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-17T09:44:45.270234" elapsed="0.035050"/>
+<status status="PASS" start="2025-06-17T10:55:46.100652" elapsed="0.033858"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:45.305698" level="INFO">Typing text '1212' into text field '//input[@type='password']'.</msg>
+<msg time="2025-06-17T10:55:46.134927" level="INFO">Typing text '1212' into text field '//input[@type='password']'.</msg>
 <arg>//input[@type='password']</arg>
 <arg>${SENHA_INCORRETA}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-17T09:44:45.305462" elapsed="0.017541"/>
+<status status="PASS" start="2025-06-17T10:55:46.134692" elapsed="0.018042"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:45.269916" elapsed="0.053211"/>
+<status status="PASS" start="2025-06-17T10:55:46.100405" elapsed="0.052441"/>
 </kw>
 <kw name="And clico no botão de login" owner="keywords">
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:45.323880" level="INFO">Clicking button '//button[contains(.,'Login')]'.</msg>
+<msg time="2025-06-17T10:55:46.153575" level="INFO">Clicking button '//button[contains(.,'Login')]'.</msg>
 <arg>//button[contains(.,'Login')]</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-17T09:44:45.323730" elapsed="1.034531"/>
+<status status="PASS" start="2025-06-17T10:55:46.153427" elapsed="1.354123"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:45.323483" elapsed="1.034896"/>
+<status status="PASS" start="2025-06-17T10:55:46.153167" elapsed="1.354532"/>
 </kw>
 <kw name="Then vejo a mensagem de erro de login" owner="keywords">
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2025-06-17T09:44:46.364308" level="INFO">Current page contains text 'Your email or password is incorrect!'.</msg>
+<msg time="2025-06-17T10:55:47.514150" level="INFO">Current page contains text 'Your email or password is incorrect!'.</msg>
 <arg>${LOGIN_INVALIDO}</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2025-06-17T09:44:46.359154" elapsed="0.005249"/>
+<status status="PASS" start="2025-06-17T10:55:47.508489" elapsed="0.005916"/>
 </kw>
 <kw name="Take Screenshot" owner="Screenshot">
-<msg time="2025-06-17T09:44:46.413663" level="INFO" html="true">&lt;a href="screenshot_5.jpg"&gt;&lt;img src="screenshot_5.jpg" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-06-17T10:55:47.575474" level="INFO" html="true">&lt;a href="screenshot_8.jpg"&gt;&lt;img src="screenshot_8.jpg" width="800px"&gt;&lt;/a&gt;</msg>
 <doc>Takes a screenshot in JPEG format and embeds it into the log file.</doc>
-<status status="PASS" start="2025-06-17T09:44:46.364558" elapsed="0.049236"/>
+<status status="PASS" start="2025-06-17T10:55:47.514737" elapsed="0.060851"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:46.358739" elapsed="0.055170"/>
+<status status="PASS" start="2025-06-17T10:55:47.508144" elapsed="0.067546"/>
 </kw>
 <kw name="Fechar navegador" owner="keywords" type="TEARDOWN">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-06-17T09:44:46.414837" elapsed="2.651258"/>
+<status status="PASS" start="2025-06-17T10:55:47.576423" elapsed="2.770829"/>
 </kw>
-<status status="PASS" start="2025-06-17T09:44:46.414548" elapsed="2.651657"/>
+<status status="PASS" start="2025-06-17T10:55:47.576100" elapsed="2.771265"/>
 </kw>
 <doc>Deve exibir erro ao tentar logar com email/senha incorretos.</doc>
 <tag>login_negativo</tag>
-<status status="PASS" start="2025-06-17T09:44:32.047199" elapsed="17.019168"/>
+<status status="PASS" start="2025-06-17T10:55:35.326361" elapsed="15.021159"/>
 </test>
-<status status="PASS" start="2025-06-17T09:44:14.253474" elapsed="34.813583"/>
+<status status="PASS" start="2025-06-17T10:55:18.426279" elapsed="31.921769"/>
 </suite>
-<status status="PASS" start="2025-06-17T09:44:14.229448" elapsed="34.838273"/>
+<suite id="s1-s3" name="Teste Faker" source="C:\DEV\qa-automation-portfolio\robot-framework\projeto-ecommerce-automationexercise\tests\teste_faker.robot">
+<test id="s1-s3-t1" name="Teste Faker" line="5">
+<kw name="First Name" owner="FakerLibrary">
+<msg time="2025-06-17T10:55:50.350639" level="INFO">${nome} = Christopher</msg>
+<var>${nome}</var>
+<status status="PASS" start="2025-06-17T10:55:50.350435" elapsed="0.000226"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-17T10:55:50.350913" level="INFO">Nome gerado: Christopher</msg>
+<arg>Nome gerado: ${nome}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-17T10:55:50.350791" elapsed="0.000152"/>
+</kw>
+<status status="PASS" start="2025-06-17T10:55:50.350160" elapsed="0.000906"/>
+</test>
+<status status="PASS" start="2025-06-17T10:55:50.348690" elapsed="0.002769"/>
+</suite>
+<status status="PASS" start="2025-06-17T10:54:59.087247" elapsed="51.264752"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0" skip="0">All Tests</stat>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
+<stat pass="1" fail="0" skip="0">cadastro</stat>
 <stat pass="1" fail="0" skip="0">login_negativo</stat>
 <stat pass="1" fail="0" skip="0">login_positivo</stat>
+<stat pass="1" fail="0" skip="0">positivo</stat>
 </tag>
 <suite>
-<stat name="Tests" id="s1" pass="2" fail="0" skip="0">Tests</stat>
-<stat name="Login Tests" id="s1-s1" pass="2" fail="0" skip="0">Tests.Login Tests</stat>
+<stat name="Tests" id="s1" pass="4" fail="0" skip="0">Tests</stat>
+<stat name="Cadastro Tests" id="s1-s1" pass="1" fail="0" skip="0">Tests.Cadastro Tests</stat>
+<stat name="Login Tests" id="s1-s2" pass="2" fail="0" skip="0">Tests.Login Tests</stat>
+<stat name="Teste Faker" id="s1-s3" pass="1" fail="0" skip="0">Tests.Teste Faker</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-06-17T09:44:14.994446" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
-<msg time="2025-06-17T09:44:32.300468" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg time="2025-06-17T10:54:59.800833" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg time="2025-06-17T10:55:18.685313" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg time="2025-06-17T10:55:35.582263" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\gabrielle\AppData\Roaming\Python\Python312\Scripts\geckodriver.exe might not be compatible with the detected firefox version (139.0.4.479); currently, geckodriver 0.36.0 is recommended for firefox 139.*, so it is advised to delete the driver in PATH and retry</msg>
 </errors>
 </robot>

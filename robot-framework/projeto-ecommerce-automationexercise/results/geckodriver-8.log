@@ -1,44 +1,16 @@
-1750167304481	geckodriver	INFO	Listening on 127.0.0.1:54374
-1750167307517	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54375" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\rust_mozprofileRgY2OA"
+1750168499816	geckodriver	INFO	Listening on 127.0.0.1:54665
+1750168502851	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54666" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\rust_mozprofileQJkque"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 Dynamically enable window occlusion 0
-1750167307771	Marionette	INFO	Marionette enabled
-1750167307889	Marionette	INFO	Listening on port 54385
-WebDriver BiDi listening on ws://127.0.0.1:54375
-Read port: 54385
-1750167307984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:54375/devtools/browser/009f8b0a-aa08-4f7d-9da2-32eda71e86ac
+1750168503094	Marionette	INFO	Marionette enabled
+1750168503213	Marionette	INFO	Listening on port 54673
+WebDriver BiDi listening on ws://127.0.0.1:54666
+Read port: 54673
+1750168503311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54666/devtools/browser/b950cf30-b03b-4407-8f17-f91060dd7045
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 83: Script terminated by timeout at:
-n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:904
-dd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:89:1294
-uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
-n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
-n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
-Hh/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:142:320
-Xa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:339
-Ua.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:127
-Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:483
-Hh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:142:292
-uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
-n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
-n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
-tg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
-Ta.prototype.Sb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
-tg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
-uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
-n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
-n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
-tg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
-Ta.prototype.Sb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
-tg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
-uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
-n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
-n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
-h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:477
-
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
@@ -46,14 +18,19 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 console.error: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "<unknown>"  data: no]
 JavaScript error: resource://gre/actors/FormHandlerChild.sys.mjs, line 103: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'FormHandler' has been destroyed
-JavaScript warning: https://pagead2.googlesyndication.com/bg/3nxT03J6KyVzk75roof6G32FCqAPoB7S1NgsT9gqgHY.js, line 4189: unreachable code after return statement
-JavaScript warning: https://pagead2.googlesyndication.com/bg/3nxT03J6KyVzk75roof6G32FCqAPoB7S1NgsT9gqgHY.js line 2 > eval, line 4189: unreachable code after return statement
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
 console.warn: FormAutofillSection: isRecordCreatable: Country not supported: INDIA
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
 JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 91: Script terminated by timeout at:
-M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:473
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 82: Script terminated by timeout at:
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:279
+O/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:101:1448
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+R/</</d<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:102:357
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:475
 jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
 n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
 Oe/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:101:401
@@ -87,9 +64,8 @@ n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/
 n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
 h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:477
 
-1750167318794	Marionette	INFO	Stopped listening on port 54385
+1750168515753	Marionette	INFO	Stopped listening on port 54673
 Dynamically enable window occlusion 1
-JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
 console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
 console.error: services.settings: 

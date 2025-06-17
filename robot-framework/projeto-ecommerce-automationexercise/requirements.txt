@@ -1,2 +1,5 @@
 robotframework
 robotframework-seleniumlibrary
+robotframework-fakerlibrary
+faker
+selenium

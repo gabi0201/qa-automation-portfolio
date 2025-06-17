@@ -1,1 +1,6 @@
-results/
+# Ignora arquivos de output dos testes
+output.xml
+log.html
+report.html
+__pycache__/
+venv/

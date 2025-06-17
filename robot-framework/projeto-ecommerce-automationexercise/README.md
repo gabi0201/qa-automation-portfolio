@@ -19,6 +19,7 @@ Automatizar funcionalidades importantes como login, cadastro e fluxo de compra, 
 
 - [Robot Framework](https://robotframework.org/)
 - SeleniumLibrary
+- FakerLibrary
 - Python 3.11+
 
 ## 🚀 Como Executar
@@ -40,11 +41,9 @@ Automatizar funcionalidades importantes como login, cadastro e fluxo de compra, 
 
 - [X] Login com dados válidos
 - [X] Login com dados inválidos (mensagem de erro)
-- [ ] Cadastro de novo usuário
+- [X] Cadastro de novo usuário
 - [ ] Adicionar item ao carrinho
 - [ ] Fluxo de compra completo
-
-Em breve: testes com dados dinâmicos
 
 ## 🧠 Autor
 
